@@ -39,19 +39,3 @@ console.log(firstName.includes("D"));
 //Trim
 console.log(surName.trim());
 console.log(surName.trim());
-
-//Backticks  `` in use of backticks
-let some = "group of text done";
-console.log(some);
-let any = `group of text written in any form 
-            even on new line 
-            even numbers 
-            1
-            2
-            5
-            3
-            0
-            even variables appended
-            
-            iam ${firstName}${secondName}`;
-console.log(any);
