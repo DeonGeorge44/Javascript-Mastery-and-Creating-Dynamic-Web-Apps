@@ -38,3 +38,4 @@ console.log(firstName.includes("D"));
 
 //Trim
 console.log(surName.trim());
+console.log(surName.trim());
