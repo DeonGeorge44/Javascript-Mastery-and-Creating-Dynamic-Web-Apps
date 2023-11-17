@@ -34,3 +34,6 @@ console.log("Using Bracket Notation");
 console.log(person["firstName"]);
 console.log(person["location"]);
 console.log(person["10"]);
+
+person.hobbies = "Reading Books";
+console.log(person);
