@@ -1,0 +1,23 @@
+//--------------------------------------------JSON in Javascript-------------------------------------------
+/* --JSON --> Javascript Object Notation -it is a lightweight data interchange format that is easier for humans to read and write and   
+         and also for machines to parts and generate.  
+         
+         JSON is often used for tranmitting data between servers and web application and also storing configuration settings and data 
+         In Javascript JSON is represented with a string
+*/
+
+{
+    "Name": "deon george",
+    "Age": 24
+    "Email":"ddeongeorge@gmail.com",
+    "isSubscribed": true,
+    "Hobbies":["Reading","Running","Cooking"],
+    "Address":{
+      "City":"Kottayam",
+      "State":"Kerala",
+      "Country":"India"
+    }
+}
+
+//--------In JSON,property key must be double coded---------------------------------------------------------------------
+
