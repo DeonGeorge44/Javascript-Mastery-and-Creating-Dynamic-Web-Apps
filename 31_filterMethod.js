@@ -13,3 +13,16 @@ const songs = [
     { name: "Old Town Road", duration: 1.43 },
     { name: "The Box", duration: 5.23 },
 ];
+
+console.log(songs.filter((song) => song.duration > 2.3));
+
+//Exercise 2
+const computers = [
+    { ram: 4, ssd: 500 },
+    { ram: 32, ssd: 1000 },
+    { ram: 16, ssd: 200 },
+    { ram: 8, ssd: 250 },
+];
+
+console.log(computers.filter((com) => com.ram > 8));
+console.log(computers.filter((com) => com.ram < 8));
